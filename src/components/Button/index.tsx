@@ -10,15 +10,18 @@ interface IButton {
   className?: string;
   variant?: ButtonType;
   children: React.ReactNode;
+  onClick?: React.MouseEventHandler<HTMLButtonElement> | undefined;
 }
 const Button: FC<IButton> = ({
   children,
   className,
   variant = ButtonType.Primary,
+  onClick,
 }) => {
   return (
     <div className="flex space-x-2 justify-center">
       <button
+        onClick={onClick}
         type="button"
         className={`inline-block 
         px-6 

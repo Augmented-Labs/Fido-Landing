@@ -16,7 +16,16 @@ const CTA = (props: Props) => {
         </div>
       </div>
       <div>
-        <Button className="py-4 font-semibold" variant={ButtonType.Secondary}>
+        <Button
+          className="py-4 font-semibold"
+          variant={ButtonType.Secondary}
+          onClick={() => {
+            window.open(
+              "https://calendly.com/jerry-fido-support/30min",
+              "_self"
+            );
+          }}
+        >
           Book a demo today
         </Button>{" "}
       </div>

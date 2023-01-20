@@ -16,7 +16,17 @@ const PrimaryCopy = (props: Props) => {
           velit massa rutrum justo, quis cursus lacus purus vitae orci.
         </div>
         <div className="flex gap-x-5 mt-12 lg:justify-start justify-center">
-          <Button className="py-4 px-8">Book a Demo</Button>
+          <Button
+            onClick={() => {
+              window.open(
+                "https://calendly.com/jerry-fido-support/30min",
+                "_self"
+              );
+            }}
+            className="py-4 px-8"
+          >
+            Book a Demo
+          </Button>
         </div>
       </div>
       <div
