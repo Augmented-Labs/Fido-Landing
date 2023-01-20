@@ -1,9 +1,5 @@
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "./page.module.css";
 import Header from "@/components/Header";
 import PrimaryCopy from "@/components/PrimaryCopy";
-import TrustedBy from "@/components/Body";
 import Body from "@/components/Body";
 import SecondaryCopy from "@/components/SecondaryCopy";
 import CTA from "@/components/CTA";
