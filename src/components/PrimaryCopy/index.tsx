@@ -7,14 +7,12 @@ type Props = {};
 const PrimaryCopy = (props: Props) => {
   return (
     <div className="flex items-center justify-between">
-      <div className="lg:max-w-lg lg:text-left text-center text-white">
+      <div className="lg:max-w-xl lg:text-left text-center text-white">
         <div className="mt-16 text-6xl lg:text-7xl leading-tight tracking-tight">
-          Supercharge Your Customer Support by 10x
+          Quality Customer Support 10x faster with AI
         </div>
-        <div className="my-4 font-light">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-          condimentum porta orci. Sed pellentesque, tortor eu sodales gravida,
-          velit massa rutrum justo, quis cursus lacus purus vitae orci.
+        <div className="my-4 font-light text-lg">
+          {`Fido leverages modern AI trained on your existing support history to respond to customers 10x faster without the time and cost of scaling a team.`}
         </div>
         <div className="flex gap-x-5 mt-12 lg:justify-start justify-center">
           <Button
@@ -30,10 +28,7 @@ const PrimaryCopy = (props: Props) => {
           </Button>
         </div>
       </div>
-      <div
-        style={{ maxWidth: "525px" }}
-        className="mt-12 xl:mr-24 lg:block hidden"
-      >
+      <div style={{ maxWidth: "525px" }} className="mt-12  lg:block hidden">
         <img src="/primary.png" alt="primary" />
       </div>
     </div>
