@@ -8,8 +8,7 @@ const Body = (props: Props) => {
       <div className="w-full flex justify-center items-center container mx-auto px-4 flex-col">
         <div className="text-5xl font-bold">{`Fido's Toolkit`}</div>
         <div className="font-light max-w-md text-center mt-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-          condimentum porta orci.
+          A suite of tools to bring your CX stack to the next level
         </div>
       </div>
       <div className="container mx-auto px-12 lg:mt-32 mt-24">
